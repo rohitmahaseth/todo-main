@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background: aliceblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.topic{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    background: rebeccapurple;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: ridge;
+}
+.inbox{
+    border: 0.5vh solid rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 9vh;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* padding-left: 5%; */
+    margin-left: 5%;
+    width: 90%;
+}
+
+.topic h1{
+    background: rebeccapurple;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.add-btn img{
+    height: 6vh;
+    padding-right: 1rem;
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 1rem; */
+    cursor: pointer;
+}
+
+.inbox-area{
+    width: 92%;
+    height: 100%;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.list{
+    border: 0.5vh solid rebeccapurple;
+    height: 100%-154px;
+    height: calc(100vh - 160px);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    overflow: auto;
+}
+.list-rec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 0.1rem solid rebeccapurple; */
+    margin: 0.7rem;
+    border-bottom: 1px solid rebeccapurple;
+}
+.list-rec p{
+    font-size: 18px;
+}
+.del-btn{
+    border: none;
+    cursor: pointer;
+}
+.del-btn img{
+    height: 1.5rem
+}
